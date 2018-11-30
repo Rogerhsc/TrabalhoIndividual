@@ -1,0 +1,7 @@
+package aula.fib.br.listapersonalizada
+
+import java.io.Serializable
+
+class Contato(var id: Long,
+              var nome: String,
+              val descricao: String? = null) : Serializable
